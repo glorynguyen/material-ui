@@ -345,7 +345,7 @@ class TableBody extends Component {
     }
 
     if (this.props.onRowSelection) {
-      this.props.onRowSelection(this.flattenRanges(selectedRows));
+      this.props.onRowSelection(event,this.flattenRanges(selectedRows));
     }
   }
 
